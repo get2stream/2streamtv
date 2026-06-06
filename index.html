@@ -4,213 +4,264 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title id="page-title">2Stream IPTV</title>
-  <meta name="description" content="Simple IPTV website for live TV, sports, movies, and series." />
+  <meta name="description" content="Premium IPTV service for live TV, sports, movies, and series." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="#" data-business-name>2Stream</a>
+    <a class="brand" href="#">
+      <span class="brand-mark">2</span>
+      <span data-business-name>2Stream</span>
+    </a>
 
-    <nav class="desktop-nav">
-      <a href="#features">Features</a>
+    <nav class="nav-links">
       <a href="#plans">Plans</a>
+      <a href="#devices">Devices</a>
       <a href="#setup">Setup</a>
       <a href="#faq">FAQ</a>
-      <a href="#contact">Contact</a>
     </nav>
 
-    <a class="header-button" href="#plans">View Plans</a>
+    <a class="nav-cta" href="#contact">Get Started</a>
   </div>
 </header>
 
 <main>
 
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-content">
-        <p class="eyebrow" data-eyebrow>Live TV • Sports • Movies • Series</p>
-        <h1 data-hero-title>Simple IPTV. Easy Streaming.</h1>
-        <p class="hero-text" data-hero-subtitle>
-          Watch live channels, sports, movies, and series on the devices you already use.
-        </p>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="pill">Live TV • Sports • Movies • Series</div>
+      <h1 data-hero-title>Premium streaming made simple.</h1>
+      <p data-hero-subtitle>
+        Watch live channels, sports, movies, and series on your favorite devices with fast setup and simple plans.
+      </p>
 
-        <div class="hero-actions">
-          <a class="button primary" href="#plans">See Plans</a>
-          <a class="button secondary" href="#contact">Contact Us</a>
-        </div>
-
-        <div class="trust-row">
-          <span>Firestick</span>
-          <span>Android</span>
-          <span>Smart TV</span>
-          <span>Apple TV</span>
-        </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#plans">View Plans</a>
+        <a class="btn btn-secondary" href="#contact">Contact Us</a>
       </div>
 
-      <div class="hero-card">
-        <div class="screen-bar">
+      <div class="hero-stats">
+        <div>
+          <strong>Live TV</strong>
+          <span>Channels & events</span>
+        </div>
+        <div>
+          <strong>VOD</strong>
+          <span>Movies & series</span>
+        </div>
+        <div>
+          <strong>Fast Setup</strong>
+          <span>Help available</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tv-wrap">
+      <div class="glow"></div>
+      <div class="tv-card">
+        <div class="tv-top">
           <span></span><span></span><span></span>
         </div>
-        <div class="screen-content">
-          <p>Now Streaming</p>
-          <h2>Live TV + On Demand</h2>
-          <div class="mini-grid">
-            <div>Sports</div>
-            <div>Movies</div>
-            <div>Series</div>
-            <div>News</div>
+
+        <div class="featured-screen">
+          <div>
+            <small>Now Playing</small>
+            <h2>Live Sports Weekend</h2>
+            <p>Stream live entertainment across the devices you already use.</p>
           </div>
+        </div>
+
+        <div class="content-row">
+          <div class="content-tile">Sports</div>
+          <div class="content-tile">Movies</div>
+          <div class="content-tile">Series</div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="features" class="section">
-    <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow">Features</p>
-        <h2>Everything you need in one simple service.</h2>
-      </div>
+<section class="logos">
+  <div class="container logo-strip">
+    <span>Firestick</span>
+    <span>Android TV</span>
+    <span>Smart TV</span>
+    <span>Apple TV</span>
+    <span>Phone</span>
+    <span>Tablet</span>
+  </div>
+</section>
 
-      <div class="card-grid">
-        <article class="info-card">
-          <h3>Live Channels</h3>
-          <p data-feature-1>Access a wide selection of live TV channels from one easy app.</p>
-        </article>
-
-        <article class="info-card">
-          <h3>Sports & Events</h3>
-          <p data-feature-2>Stream live sports and special events without complicated setup.</p>
-        </article>
-
-        <article class="info-card">
-          <h3>Movies & Series</h3>
-          <p data-feature-3>Enjoy movies, shows, and on-demand entertainment.</p>
-        </article>
-
-        <article class="info-card">
-          <h3>Device Friendly</h3>
-          <p data-feature-4>Works with Firestick, Android, Smart TVs, tablets, and phones.</p>
-        </article>
-      </div>
+<section class="section" id="features">
+  <div class="container">
+    <div class="section-head">
+      <span class="pill">Why 2Stream</span>
+      <h2>Clean, simple, and built for everyday streaming.</h2>
     </div>
-  </section>
 
-  <section id="plans" class="section plans-section">
-    <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow">Plans</p>
-        <h2>Simple pricing. Easy activation.</h2>
-      </div>
+    <div class="feature-grid">
+      <article class="feature-card large">
+        <span class="icon">▶</span>
+        <h3>Live channels in one place</h3>
+        <p data-feature-1>Access live entertainment, news, sports, and more from one easy-to-use service.</p>
+      </article>
 
-      <div class="plans-grid">
-        <article class="plan-card">
-          <h3 data-plan-1-name>1 Month</h3>
-          <p class="price" data-plan-1-price>$15</p>
-          <ul>
-            <li>Live TV</li>
-            <li>Movies & Series</li>
-            <li>Support included</li>
-          </ul>
-          <a class="button primary full" href="#contact">Choose Plan</a>
-        </article>
+      <article class="feature-card">
+        <span class="icon">⚽</span>
+        <h3>Sports & events</h3>
+        <p data-feature-2>Watch live sports and special events without a complicated setup process.</p>
+      </article>
 
-        <article class="plan-card featured">
-          <div class="badge">Popular</div>
-          <h3 data-plan-2-name>3 Months</h3>
-          <p class="price" data-plan-2-price>$35</p>
-          <ul>
-            <li>Live TV</li>
-            <li>Movies & Series</li>
-            <li>Better value</li>
-          </ul>
-          <a class="button primary full" href="#contact">Choose Plan</a>
-        </article>
+      <article class="feature-card">
+        <span class="icon">🎬</span>
+        <h3>Movies & series</h3>
+        <p data-feature-3>Enjoy on-demand entertainment with movies, shows, and series options.</p>
+      </article>
 
-        <article class="plan-card">
-          <h3 data-plan-3-name>12 Months</h3>
-          <p class="price" data-plan-3-price>$89</p>
-          <ul>
-            <li>Live TV</li>
-            <li>Movies & Series</li>
-            <li>Best savings</li>
-          </ul>
-          <a class="button primary full" href="#contact">Choose Plan</a>
-        </article>
-      </div>
+      <article class="feature-card">
+        <span class="icon">📱</span>
+        <h3>Multi-device support</h3>
+        <p data-feature-4>Use Firestick, Android, Smart TV, Apple TV, phones, tablets, and more.</p>
+      </article>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="setup" class="section">
-    <div class="container split">
-      <div>
-        <p class="eyebrow">Setup</p>
-        <h2>Works on the devices you already have.</h2>
-        <p class="muted">
-          Use your Firestick, Android box, Smart TV, phone, tablet, or Apple TV. Setup help is available.
-        </p>
-      </div>
-
-      <div class="device-list">
-        <span>Firestick</span>
-        <span>Android TV</span>
-        <span>Smart TV</span>
-        <span>Apple TV</span>
-        <span>iPhone</span>
-        <span>Android Phone</span>
-      </div>
+<section class="section plans-section" id="plans">
+  <div class="container">
+    <div class="section-head">
+      <span class="pill">Plans</span>
+      <h2>Simple pricing with no clutter.</h2>
+      <p>Change prices anytime in <strong>config.js</strong>.</p>
     </div>
-  </section>
 
-  <section id="faq" class="section faq-section">
-    <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow">FAQ</p>
-        <h2>Common Questions</h2>
-      </div>
+    <div class="plans-grid">
+      <article class="plan-card">
+        <h3 data-plan-1-name>1 Month</h3>
+        <div class="price" data-plan-1-price>$15</div>
+        <ul>
+          <li>Live TV access</li>
+          <li>Movies & series</li>
+          <li>Setup support</li>
+        </ul>
+        <a class="btn btn-primary full" href="#contact">Choose Plan</a>
+      </article>
 
-      <div class="faq-list">
-        <details>
-          <summary>Do I need special equipment?</summary>
-          <p>No. You only need internet service and a compatible streaming device.</p>
-        </details>
+      <article class="plan-card popular">
+        <div class="popular-badge">Most Popular</div>
+        <h3 data-plan-2-name>3 Months</h3>
+        <div class="price" data-plan-2-price>$35</div>
+        <ul>
+          <li>Better value</li>
+          <li>Live TV + VOD</li>
+          <li>Setup support</li>
+        </ul>
+        <a class="btn btn-primary full" href="#contact">Choose Plan</a>
+      </article>
 
-        <details>
-          <summary>Can I use this on a Firestick?</summary>
-          <p>Yes. Firestick is one of the most common devices used for IPTV service.</p>
-        </details>
-
-        <details>
-          <summary>How do I get started?</summary>
-          <p>Choose a plan and contact us. We will help with activation and setup instructions.</p>
-        </details>
-      </div>
+      <article class="plan-card">
+        <h3 data-plan-3-name>12 Months</h3>
+        <div class="price" data-plan-3-price>$89</div>
+        <ul>
+          <li>Best savings</li>
+          <li>Live TV + VOD</li>
+          <li>Priority support</li>
+        </ul>
+        <a class="btn btn-primary full" href="#contact">Choose Plan</a>
+      </article>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="contact" class="section contact-section">
-    <div class="container contact-box">
-      <p class="eyebrow">Contact</p>
-      <h2>Ready to start streaming?</h2>
-      <p class="muted">Reach out for plans, setup help, or account activation.</p>
-
-      <div class="contact-actions">
-        <a class="button primary" data-contact-email-link href="mailto:support@example.com">Email Us</a>
-        <a class="button secondary" data-contact-phone-link href="tel:">Call / Text</a>
-      </div>
-
-      <p class="small" data-contact-text>support@example.com</p>
+<section class="section devices-section" id="devices">
+  <div class="container devices-grid">
+    <div>
+      <span class="pill">Devices</span>
+      <h2>Watch on the screens you already own.</h2>
+      <p class="muted">
+        Compatible with many popular streaming devices. Setup instructions can be provided after activation.
+      </p>
     </div>
-  </section>
+
+    <div class="device-cards">
+      <div>Firestick</div>
+      <div>Android TV</div>
+      <div>Smart TV</div>
+      <div>Apple TV</div>
+      <div>iPhone</div>
+      <div>Android Phone</div>
+    </div>
+  </div>
+</section>
+
+<section class="section setup-section" id="setup">
+  <div class="container steps-grid">
+    <div class="step-card">
+      <span>01</span>
+      <h3>Choose a plan</h3>
+      <p>Select the term that works best for you.</p>
+    </div>
+    <div class="step-card">
+      <span>02</span>
+      <h3>Contact us</h3>
+      <p>Send your preferred device and setup request.</p>
+    </div>
+    <div class="step-card">
+      <span>03</span>
+      <h3>Start streaming</h3>
+      <p>Follow setup instructions and begin watching.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section faq-section" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <span class="pill">FAQ</span>
+      <h2>Quick answers.</h2>
+    </div>
+
+    <div class="faq-list">
+      <details>
+        <summary>Do I need special equipment?</summary>
+        <p>No. You need internet service and a compatible streaming device.</p>
+      </details>
+      <details>
+        <summary>Can I use a Firestick?</summary>
+        <p>Yes. Firestick is one of the most common devices used for IPTV service.</p>
+      </details>
+      <details>
+        <summary>How do I update pricing or text?</summary>
+        <p>Open config.js, change the values, save the file, and upload the updated file to GitHub or Cloudflare Pages.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="container contact-panel">
+    <span class="pill">Get Started</span>
+    <h2>Ready to start streaming?</h2>
+    <p class="muted">Contact us for plan options, setup help, or account activation.</p>
+
+    <div class="contact-actions">
+      <a class="btn btn-primary" data-contact-email-link href="mailto:support@example.com">Email Us</a>
+      <a class="btn btn-secondary" data-contact-phone-link href="tel:">Call / Text</a>
+    </div>
+
+    <p class="contact-line" data-contact-text>support@example.com</p>
+  </div>
+</section>
 
 </main>
 
-<footer class="site-footer">
+<footer class="footer">
   <div class="container footer-inner">
     <p>© <span id="year"></span> <span data-business-name>2Stream</span>. All rights reserved.</p>
-    <a href="#top">Back to top</a>
+    <a href="#">Back to top</a>
   </div>
 </footer>
 

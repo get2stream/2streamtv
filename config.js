@@ -1,18 +1,17 @@
 // EASY EDIT FILE
-// Change the text below, save, upload again, and your site updates.
+// Change these values, save, and upload the updated file.
 
 const siteConfig = {
   businessName: "2Stream",
   pageTitle: "2Stream IPTV",
 
-  eyebrow: "Live TV • Sports • Movies • Series",
-  heroTitle: "Simple IPTV. Easy Streaming.",
-  heroSubtitle: "Watch live channels, sports, movies, and series on the devices you already use.",
+  heroTitle: "Premium streaming made simple.",
+  heroSubtitle: "Watch live channels, sports, movies, and series on your favorite devices with fast setup and simple plans.",
 
-  feature1: "Access a wide selection of live TV channels from one easy app.",
-  feature2: "Stream live sports and special events without complicated setup.",
-  feature3: "Enjoy movies, shows, and on-demand entertainment.",
-  feature4: "Works with Firestick, Android, Smart TVs, tablets, and phones.",
+  feature1: "Access live entertainment, news, sports, and more from one easy-to-use service.",
+  feature2: "Watch live sports and special events without a complicated setup process.",
+  feature3: "Enjoy on-demand entertainment with movies, shows, and series options.",
+  feature4: "Use Firestick, Android, Smart TV, Apple TV, phones, tablets, and more.",
 
   plan1Name: "1 Month",
   plan1Price: "$15",
@@ -30,11 +29,10 @@ const siteConfig = {
 document.getElementById("page-title").textContent = siteConfig.pageTitle;
 document.getElementById("year").textContent = new Date().getFullYear();
 
-document.querySelectorAll("[data-business-name]").forEach(el => {
+document.querySelectorAll("[data-business-name]").forEach((el) => {
   el.textContent = siteConfig.businessName;
 });
 
-document.querySelector("[data-eyebrow]").textContent = siteConfig.eyebrow;
 document.querySelector("[data-hero-title]").textContent = siteConfig.heroTitle;
 document.querySelector("[data-hero-subtitle]").textContent = siteConfig.heroSubtitle;
 

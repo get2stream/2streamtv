@@ -1,25 +1,12 @@
-# 2Stream Simple Website
+# 2Stream Premium Static Site
 
-This is a simple static website for Cloudflare Pages.
+Upload these files to GitHub or directly to Cloudflare Pages.
 
 ## Files
 
-- `index.html` = page structure
-- `styles.css` = design/colors/layout
-- `config.js` = easy edits for business name, pricing, contact info, and text
-
-## How to edit
-
-Open `config.js` and change:
-
-- businessName
-- pricing
-- contactEmail
-- contactPhone
-- heroTitle
-- heroSubtitle
-
-Save the file, upload to GitHub or Cloudflare Pages, and redeploy.
+- index.html — site structure
+- styles.css — design
+- config.js — easy text, pricing, email, phone edits
 
 ## Cloudflare Pages Settings
 
